@@ -1,0 +1,760 @@
+* { margin: 0; padding: 0; }
+
+body          { background: #0F1A30; font:12px/1.55 Arial, Helvetica, sans-serif; color:#2f2f2f; text-align:left; }
+
+img { border: 0; }
+ul { list-style-type: none;}
+.std ul {
+    padding-left: 0; 
+}
+
+.data-table tfoot { border-bottom:1px solid #273145; }
+.data-table tfoot tr.first td { background:url(../images/bkg_tfoot.gif) 0 0 repeat-x; }
+.data-table tfoot tr { background-color:#273145 !important; }
+.data-table tfoot td { padding-top:1px; padding-bottom:1px; border-bottom:0; border-right:1px solid #273145; }
+.data-table tfoot strong { font-size:16px; }
+.data-table tbody td { border-bottom:1px solid #273145; border-right:1px solid #273145; }
+
+#checkout-review-table.data-table tfoot { border-bottom:1px solid #DEE5E8; }
+#checkout-review-table.data-table tfoot tr.first td { background:url(../images/bkg_tfoot.gif) 0 0 repeat-x; }
+#checkout-review-table.data-table tfoot tr { background-color:#DEE5E8!important; }
+#checkout-review-table.data-table tfoot td { padding-top:1px; padding-bottom:1px; border-bottom:0; border-right:1px solid #273145; }
+#checkout-review-table.data-table tfoot strong { font-size:16px; }
+#checkout-review-table.data-table tbody td { border-bottom:1px solid #DEE5E8; border-right:1px solid #DEE5E8; }
+#checkoutSteps input:focus,
+.account-login input.input-text:focus,
+#checkoutSteps select:focus,
+#checkoutSteps textarea:focus
+ { background-color: #D0DCE1; }
+
+ul#advanced-search-list {
+    clear: both;
+    display: table-row;
+    width: 690px;
+}
+
+
+.account-login p, .account-login h2 {color: #777777;}
+
+a { text-decoration: none; }
+
+.account-login .col2-set {
+    height: 250px;
+}
+
+.std ul.tracks {
+    list-style-type: none;
+}
+
+div.block.block-account, div.block.block-cart, div.block.block-list.block-compare {
+    float: left;
+    clear:both;
+    width: 240px;
+}
+
+div.my-account {
+    position: absolute;
+    float: left;
+    display: block;
+    width: 690px;
+    margin-left: 250px
+
+}
+
+div.page-title {
+    width: auto;
+}
+
+div.page-title h1 {
+    color:#FFFF90 !important;
+    background-color: #0D1424;
+}
+div.std h3 {
+    color:#FFFF90 !important;
+}
+
+p {
+    color: #fff;
+}
+
+form#search_mini_form {
+    width: 218px;
+    float:left;
+}
+
+div.content section div.my-account div.dashboard {
+    background-color: #273145;
+    color: #fff;
+}
+
+div.block.block-layered-nav {
+    display: none;
+}
+
+.messages {
+    width: 697px;
+}
+
+input.input-text:focus,select:focus,textarea:focus { background-color:#555C6C; }
+
+section, header, footer { display: block; clear: both; }
+
+section:after, .wrapper:after, .widget:after { content: "."; height: 0px; width: 0px; display: block; clear: both; visibility: hidden }
+
+
+.content { position: relative; font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -90px; }
+.content section { width: 946px; padding: 2px 0 0 0; margin-bottom: 80px; position: relative; margin: 0 auto; }
+footer { margin: 0 auto; padding: 40px 0 10px 0; background-color: #1b263b; }
+footer, .push { height: 40px; }
+.push { height: 180px; }
+
+.header-text .widget-text { width: 946px; margin: 0 auto; position: relative; height: 23px; }
+.header-text .widget-text p { display: block; float: left; text-transform: uppercase; font: 12px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding-right: 20px; color: #565d6b; }
+.header-text .widget-text a { padding-right: 0; color: #ffffff; text-decoration: none; font: 12px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.header-text .widget-text p.last { float: right; padding-right: 0; }
+
+.header-logo { padding: 15px 0 10px 10px; width: 946px; margin: 0 auto; }
+.widget-logo { position: relative; }
+.widget-logo h1 a { font-size: 0; line-height: 0; }
+
+.header-navi { position: relative; width: 946px; height: 32px; margin: 0 auto; }
+.header-navi .widget-navi { float: left; }
+.header-navi ul { position: relative; display: block; }
+.header-navi ul li { float: left; position: relative; }
+.header-navi ul li a { display: block; width: 116px; float: left; font: 11px/32px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; border-right: 2px solid; padding: 0px 0px; text-transform: uppercase; text-align: center; text-decoration: none; }
+
+.header-search { position: relative; float: left; background-color: #555c6c; border: none; padding-left: 20px; padding-top: 8px; }
+.header-search fieldset { border: none; position: relative; float: left;   }
+.header-search input { float: left; position: relative; width: 180px; font: 11px/14px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; background-color: #555c6c; color: #ffffff; border: none; }
+.header-search input.submit { width: 20px; color: #ffffff; background: none; border: none; font-size: 11px; cursor: pointer;}
+
+.newsletter { display: none; position: absolute; left: 704px; top: 30px; width: 200px; z-index: 100; }
+.newsletter .form { position: absolute; left: 0px; height: 23px; width: 130px; }
+.newsletter .form label.top_mail_label { position: absolute; left: 0px; top: 4px; height: 23px; width: 50px; font-size: 12px; color: #ffffff; }
+.newsletter .form #top_mail { position: absolute; left: 50px; width: 180px; padding: 2px 5px; height: 20px; color: #f4f4f4; background-color: #555C6C; border: 0; }
+.newsletter .form label.top_name_label { position: absolute; left: -250px; top: 4px; height: 23px; width: 50px; font-size: 12px; color: #ffffff; }
+.newsletter .form #top_name { position: absolute; left: -200px; width: 180px; padding: 2px 5px; height: 20px; color: #f4f4f4; background-color: #555C6C; border: 0; }
+.newsletter .zapisz { position: absolute; top: 25px; left: 177px; width: 65px; }
+.newsletter .zapisz { font-size: 12px; }
+.newsletter .wypisz { position: absolute; top: 25px; left: 182px; width: 65px; }
+.newsletter .wypisz { font-size: 12px; }
+
+.content section div.article.art1 { width: 352px; float: left; background-color: #273145; margin-right: 2px; }
+.content section div.article.art1.last { margin-right: 0; }
+.content section div.article.art1.wide { width: 356px; }
+.content section div.article.art1 h1 { padding-left: 10px; font: 12px/30px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90; background-color: #0d1424; }
+.content section div.article.art1 ul li { position: relative;  font-size: 0; line-height: 0; }
+.content section div.article.art1 ul li a { cursor: pointer; display: block; text-decoration: none; height: 70px; border-bottom: 1px solid #0f1a30; padding: 10px; width: 332px; color: #ffffff; font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art1 ul li a:hover { background: #555C6C;}
+.content section div.article.art1.wide ul li a { width: 336px; }
+.content section div.article.art1 ul li a img { display: block; width: 70px; height: 70px; float: left; padding-right: 15px; }
+.content section div.article.art1 ul li a span.first { float: right;}
+.content section div.article.art1 ul li a span.presale { padding: 0 10px; color: #ff0000;}
+.content section div.article.art1 ul li a span.second { float: left; color: #ffff90; }
+.content section div.article.art1 ul li a span.third { float: left; }
+.content section div.article.art1 ul li a span.fourth { float: left; color: #cfd4de; }
+.content section div.article.art1 a.bottom { display: block; text-decoration: none; padding-left: 10px; font: 12px/30px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90; background-color: #0d1424; width: 342px; }
+.content section div.article.art1.wide a.bottom {width: 346px; }
+.content section div.article.art1 ul li .active { position: absolute; top: 0; left: 0; padding: 10px; background-color: #0d1424; width: 332px; z-index: 100; }
+.content section div.article.art1.wide ul li .active { width: 336px; }
+.content section div.article.art1 ul li .active img { position: relative; float: left; padding: 0 0 5px 0; width: 70px; height: 70px; }
+.content section div.article.art1 ul li .active .left { position: relative; float: left; width: 70px; margin-right: 15px; overflow: hidden; }
+.content section div.article.art1 ul li .active .left .menu { position: relative; float: left; background-color: #273145; text-align: center; width: 70px; }
+.content section div.article.art1 ul li .active .left .menu a { height: 39px; border: none; width: 70px; padding: 0; margin: 15px 0; }
+.content section div.article.art1 ul li .active .left .menu a:hover { background-color: #273145;}
+.content section div.article.art1 ul li .active .left .menu a img { position: relative; width: auto; height: auto; clear: both; padding: 0; float: none; text-align: center; margin: 0 auto; }
+.content section div.article.art1 ul li .active .left .menu a span { position: relative; clear: both; padding: 0 0; width: 70px; float: none; text-align: center; font: 13px/13px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art1 ul li .active .left .menu a.buy span { color: #585F6F; }
+.content section div.article.art1 ul li .active .left .menu a.buy-button span { color: #FFFFFF; }
+.content section div.article.art1 ul li .active .right { position: relative; float: left; width: 247px; color: #ffffff; padding-right: 0px; font: 14px/17px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art1 ul li .active .right span.second { position: relative; float: left; color: #ffff90; clear: both; display: inline; width: 100%; }
+.content section div.article.art1 ul li .active .right span.third { position: relative; float: left; width: 100%; }
+.content section div.article.art1 ul li .active .right p { position: relative; float: left; font: 11px/14px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding: 8px 0; } 
+.content section div.article.art1 ul li .active .right ul { position: relative; width: 100%; float: left; border-top: 1px solid #273145; padding: 10px 0 0 0;  }
+.content section div.article.art1 ul li .active .right ul li { position: relative; float: left; width: 247px; }
+.content section div.article.art1 ul li .active .right ul li a {  background: url(../img/play.png) no-repeat; height: auto; font: 11px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; border: none; padding: 0; padding-left: 30px; width: 217px; }
+.content section div.article.art1 ul li .active .right ul li.actual a,
+.content section div.article.art1 ul li .active .right ul li a:hover { background: url(../img/play_active.png) no-repeat;  }
+.content section div.article.art1 ul li .active .right ul li.actual a,
+.content section div.article.art1 ul li .active .right ul li a:hover { color: #ffff90; }
+
+.content section div.article.art2 { margin-right: 2px; float: left; position: relative; overflow: hidden; width: 234px;}
+.content section div.article.art5 { width: 238px;}
+.content section div.article.art2.last { margin-right: 0; }
+.content section div.article .widget-text { padding: 0 0 0 0; }
+.content section div.article.art2 .widget-text { width: 238px; position: relative; float: left; background-color: #141e34; clear: both; }
+.content section div.article.art2 .widget-text .image_big { width: 238px; margin-top: 2px;}
+.content section div.article.art2 .widget-text h1 { padding-left: 10px; font: 12px/30px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90; background-color: #0d1424; }
+.content section div.article.art2 .widget-text ul { padding: 10px; }
+.content section div.article.art2 .widget-text p { display: block; padding: 10px 10px 5px 10px; font: 11px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding-right: 20px; color: #656c7a; }
+.content section div.article.art2 .widget-text p span { color: #ffff90; font: 10px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art2 .widget-text a { text-decoration: none; color: #ffff90; font: 10px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art2 .widget-text ul li { width: 218px; font: 11px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #656c7a;}
+.content section div.article.art2 .widget-text ul li h2 { font: 14px/22px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; }
+.content section div.article.art2 .widget-text ul li p { display: block; float: left; padding: 0 0 20px 0; font: 11px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding-right: 20px; color: #656c7a; }
+.content section div.article.art2 .widget-text ul li a { text-decoration: none; color: #ffff90; font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art2 .menu { position: relative; width: 214px; padding: 20px 20px 0 0px; background-color: #0d1324; }
+.content section div.article.art2 .menu h1 { padding-bottom: 10px; font: 12px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; font-weight: normal; color: #ffff90; text-transform: uppercase; padding-left: 20px;}
+.content section div.article.art2 .menu h1 a { color: #ffff90; text-decoration: none;}
+.content section div.article.art2 .menu h1 a:hover { color: #ffffff;}
+.content section div.article.art2 .menu ul { padding-bottom: 20px; }
+.content section div.article.art2 .menu ul li,
+.content section div.article.art2 .menu ul li a { font: 12px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; text-decoration: none;}
+.content section div.article.art2 .menu ul li span { display: block; padding-left: 20px;}
+.content section div.article.art2 .menu ul li a { padding-left: 20px; }
+.content section div.article.art2 .menu ul li a:hover,
+.content section div.article.art2 .menu ul li.active a,
+.content section div.article.art2 .menu ul li a.active { color: #ffff90; background: url(../img/star.png) no-repeat 4px 0px;}
+.content section div.article.art2 .menu ul ul { padding-bottom: 10px; }
+.content section div.article.art2 .menu ul ul li { margin-left: 25px; }
+.content section div.article.art2 .menu ul .active ul li a, .content section div.article.art2 .menu ul ul li a { font: 12px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; text-decoration: none; }
+.content section div.article.art2 .menu ul ul li a:hover, .content section div.article.art2 .menu ul ul li.active a { color: #ffff90; }
+.content section div.article.art2 .player { position: relative; width: 194px; padding: 20px 20px 20px 20px; margin-top: 2px; background-color: #0d1324; }
+
+.content section div.article.art2 .bought { position: relative; width: 194px; padding: 20px 20px 0 20px; background-color: #273145; }
+.content section div.article.art2 .bought h1 { font: 12px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding-bottom: 15px; font-weight: normal; color: #ffffff; }
+.content section div.article.art2 .bought ul { padding-bottom: 10px; }
+.content section div.article.art2 .bought ul li { border-top: 1px solid #0f1a30; padding: 5px 0; }
+.content section div.article.art2 .bought ul li a { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #7f8591; text-decoration: none; }
+.content section div.article.art2 .bought ul li a span { position: relative; float: left; width: 100%; }
+.content section div.article.art2 .bought ul li a span.first { color: #ffff90;  }
+.content section div.article.art2 .bought ul li a span.second { color: #ffffff; }
+
+.content section div.article.art3 { margin-right: 2px; position: relative; float: left; }
+.content section div.article.art3 .widget-text { width: 670px; padding: 20px; position: relative; float: left; background-color: #273145; color: #ffffff; }
+.content section div.article.art3 .widget-text {}
+.content section div.article.art3 .widget-text .text { border-bottom: 1px solid #0f1a30; margin-bottom: 25px; color: #ffffff; }
+.content section div.article.art3 .widget-text .text a { color: #ffffff; text-decoration: underline;}
+.content section div.article.art3 .widget-text .text a:hover { color: #ffffff; text-decoration: none;}
+.content section div.article.art3 .widget-text .text:last-child { border: none; margin-bottom: 0; }
+.content section div.article.art3 .widget-text .text h2 { font: 17px/17px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90; padding-bottom: 10px; }
+.content section div.article.art3 .widget-text .text p { font: 13px/17px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; padding-bottom: 15px; }
+.content section div.article.art3 .widget-text .text img { float: right; position: relative; padding-left: 20px; }
+.content section div.article.art3 .widget-text ul li { position: relative; float: left; display: block; color: #ffffff; font: 12px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; width: 670px; }
+.content section div.article.art3 .widget-text ul li span.underline { position: relative; float: left; border-top: 1px solid #0f1a30; width: 645px; }
+.content section div.article.art3 .widget-text ul li:last-child span.underline { position: relative; float: left; border-top: 1px solid #0f1a30;  border-bottom: 1px solid #0f1a30; width: 645px; }
+.content section div.article.art3 .widget-text ul li span.number { position: relative; float: left; width: 25px; color: #6f7582; font: 10px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text ul li span.one { color: #ffff90; padding-right: 5px; float: left; position: relative; }
+.content section div.article.art3 .widget-text ul li span.one a { color: #ffff90; font: 12px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif;}
+.content section div.article.art3 .widget-text ul li span.one a:hover { color: #6f7582; }
+.content section div.article.art3 .widget-text ul li span.middle { color: #ffffff; padding-right: 5px; float: left; position: relative; }
+.content section div.article.art3 .widget-text ul li span.middle a { color: #ffffff; font: 12px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text ul li span.red a { color: #ff0000;}
+.content section div.article.art3 .widget-text ul li span.middle a:hover { color: #6f7582; }
+.content section div.article.art3 .widget-text ul li input { position: relative; float: right; padding: 3px 2px; width: 20px; border: none; background-color: #6F7582; color: #f4f4f4; text-align: center; margin: 1px 3px 0 10px; font: 13px/13px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif;}
+.content section div.article.art3 .widget-text ul li span.price { position: relative; float: right; color: #ffff90; font: 12px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text ul li span.price_white { color: #ffffff; float: right; padding: 0 3px; width: 60px; text-align: right;}
+.content section div.article.art3 .widget-text ul li span.count { color: #ffffff; float: right; padding: 0 3px; width: 60px; text-align: right;}
+.content section div.article.art3 .widget-text ul li span.price_white2 { color: #ffffff; float: right; padding: 0 3px; width: 120px; text-align: right;}
+.content section div.article.art3 .widget-text ul li span.checkbox { position: relative; float: right; width: 30px; text-align: center;}
+.content section div.article.art3 .widget-text ul li span.checkbox input { float: none; border: none; background: none; margin: 0; padding: 0;}
+.content section div.article.art3 .widget-text ul li span.price_white em { font-style: normal; text-align: right; float: right; }
+.content section div.article.art3 .widget-text ul li span.price_red { color: #ff0000; }
+.content section div.article.art3 .widget-text ul li span.price_one { color: #ffffff; float: right; padding: 0 3px; }
+.content section div.article.art3 .widget-text ul li em.multiple { position relative; float: right; padding: 0 3px; }
+.content section div.article.art3 .widget-text ul li span.oos { position: relative; float: right; color: #6f7582; font: 12px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding-right: 100px; }
+.content section div.article.art3 .widget-text ul li a { color: #6f7582; font: 10px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; float: right; padding-right: 15px; }
+.content section div.article.art3 .widget-text ul li a:hover { color: #ffffff; }
+.content section div.article.art3 .widget-text ul li a.buy { background: url(../img/buy_small.png) 0 2px no-repeat; padding-left: 30px; color: #cfd4de; font: 11px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text ul li a.buy:hover { color: #ffffff; }
+.content section div.article.art3 .widget-text ul li a.view { background: url(../img/view_small.png) 0 5px no-repeat; padding-left: 30px; color: #cfd4de; font: 11px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text ul li a.view:hover { color: #ffffff; }
+.content section div.article.art3 .widget-text ul li a.listen { background: url(../img/listen.png) 0 5px no-repeat; padding-left: 30px; color: #cfd4de; font: 11px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text ul li a.listen:hover { color: #ffffff; }
+.content section div.article.art3 .widget-text .subtotal { width: 645px; border-bottom: 1px solid #0f1a30; border-top: 1px solid #0f1a30; position: relative; float: left; color: #ffffff; font: 14px/34px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; margin-left: 25px; }
+.content section div.article.art3 .widget-text .subtotal span { position: relative; float: right; color: #ffff90; font: 14px/34px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text .subtotal span em { font-style: normal; }
+.content section div.article.art3 .widget-text .confirmation p { position: relative; padding-bottom: 20px; color: #ffffff; font: 13px/17px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text .confirmation p.yellow {  color: #ffff90; }
+.content section div.article.art3 .widget-text .confirmation p.confirmation_text { padding: 15px 0 20px 0; clear: both;}
+.content section div.article.art3 .widget-text .confirmation p.confirmation_text a { color: #FFFF90; text-decoration: none; }
+.content section div.article.art3 .widget-text .confirmation p.confirmation_text a:hover { text-decoration: underline;}
+.content section div.article.art3 .widget-text .confirmation p span {  color: #ffffff; }
+.content section div.article.art3 .widget-text .info .postage { position: relative; text-align: center; height: 45px; display: block; background-color: #b7bac0; }
+.content section div.article.art3 .widget-text .info .postage ul { position: relative; display: block; margin: 0 auto; width: 600px; }
+.content section div.article.art3 .widget-text .info .postage ul li { position: relative; display: inline; width: auto; padding: 14px 40px; color: #242a39; font: 13px/17px 'AvenirLTStd-Black', 'AvenirLTStd-Black', sans-serif; font-weight: bold;}
+.content section div.article.art3 .widget-text .info .postage ul li span { font-weight: normal; }
+.content section div.article.art3 .widget-text .info .block { position: relative; float: left; width: 335px; }
+.content section div.article.art3 .widget-text .info .block2 { position: relative; float: left; width: 670px; }
+.content section div.article.art3 .widget-text .info h2 { font: 12px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90;  padding-top: 20px; }
+.content section div.article.art3 .widget-text .info .block input { position: relative; width: 10px; padding: 1px 5px; margin-top: 5px;  }
+.content section div.article.art3 .widget-text .info .block input.check { position: relative; float: left; width: 10px; padding: 1px 5px; margin: 5px 5px 0 0; }
+.content section div.article.art3 .widget-text .info .block select { position: relative; width: 236px; padding: 1px 0 1px 0px; margin-top: 5px; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .widget-text .info .block select.short { position: relative; width: 112px; padding: 1px 0 1px 5px; margin: 0 10px 0 0; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .widget-text .info .block label { font: 13px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif;  color: #ffffff; }
+.content section div.article.art3 .widget-text .info .block label.payment { font: 11px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif;  color: #ffffff; width: 220px; padding-left: 5px; position: relative; float: left; }
+.content section div.article.art3 .widget-text .info .block div.info { font-size: 10px; padding-left: 5px;}
+.content section div.article.art3 .widget-text .info .block input.radio { position: relative; width: auto; top: 2px; margin: 0 5px 0 20px; background-color: none; padding: 0; color: none; }
+.content section div.article.art3 .widget-text .info .block label.description { font: 11px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; font-weight: normal; color: #9398a4; }
+.content section div.article.art3 .widget-text .info .block input.text { position: relative; width: 225px; padding: 1px 5px; margin: 5px 0 0 0; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .widget-text .info .block textarea { position: relative; width: 225px; padding: 1px 5px; margin: 5px 0 0 0; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); height: 70px; resize: false;}
+.content section div.article.art3 .widget-text .info .block input.pay { position: relative; width: 225px; padding: 1px 5px; margin: 15px 0 0 0; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .widget-text .info .block input.short { position: relative; width: 110px; padding: 1px 5px; margin: 0 10px 0 0; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .widget-text .info .block .checkout { position: relative; float: right; display: block; width: 325px; margin-top: 45px; height: 26px; padding-right: 10px; background-color: #0d1424; }
+.content section div.article.art3 .widget-text .info .block .checkout a { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 4px 0; }
+.content section div.article.art3 .widget-text .info .block .checkout a:hover { text-decoration: underline; }
+.content section div.article.art3 .widget-text .info .block .checkout2 { position: relative; float: right; display: block; width: 325px; margin-top: 20px; height: 26px; padding-right: 10px; background-color: #0d1424; }
+.content section div.article.art3 .widget-text .info .block .checkout2 a { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 4px 0; }
+.content section div.article.art3 .widget-text .info .block .checkout2 a:hover { text-decoration: underline; }
+.content section div.article.art3 .widget-text .info .block2 input { position: relative; width: 10px; padding: 1px 5px; margin-top: 5px;  }
+.content section div.article.art3 .widget-text .info .block2 select { position: relative; width: 236px; padding: 1px 0 1px 0px; margin-top: 5px; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .widget-text .info .block2 label { font: 13px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif;  color: #ffffff; }
+.content section div.article.art3 .widget-text .info .block2 input.radio { position: relative; width: auto; top: 2px; margin: 0 5px 0 20px; background-color: none; padding: 0; color: none; }
+.content section div.article.art3 .widget-text .info .block2 label.description { font: 11px/24px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; font-weight: normal; color: #9398a4; }
+.content section div.article.art3 .widget-text .info .block2 input.text { position: relative; width: 225px; padding: 1px 5px; margin: 6px 0 0 0; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .widget-text .info .block2 .checkout { position: relative; float: right; display: block; width: 325px; margin-top: 45px; height: 26px; padding-right: 10px; background-color: #0d1424; }
+.content section div.article.art3 .widget-text .info .block2 .checkout a { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 4px 0; }
+.content section div.article.art3 .widget-text .info .block2 .checkout a:hover { text-decoration: underline; }
+.content section div.article.art3 .widget-text .info .block2 .checkout1 { position: relative; float: right; display: block; width: 325px; margin-top: 5px; height: 26px; padding-right: 10px; background-color: #0d1424; }
+.content section div.article.art3 .widget-text .info .block2 .checkout1 a { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 4px 0; }
+.content section div.article.art3 .widget-text .info .block2 .checkout1 a:hover { text-decoration: underline; }
+
+.content section div.article.art3.last { margin-right: 0; }
+.content section div.article.art3 .left { position: relative; float: left; width: 182px; padding-right: 30px; }
+.content section div.article.art3 .left .cover { position: relative; float: left; width: 166px; padding: 8px; background-color: #0f1a30; }
+.content section div.article.art3 .left .cover img { position: relative; float: left; text-align: center; }
+.content section div.article.art3 .left .menu { position: relative; float: left; margin: 4px 0; width: 148px; padding: 20px 17px 10px; background-color: #0f1a30; }
+.content section div.article.art3 .left .menu div.buy_info { text-align: center; font-size: 0.9em; color: #FFFF90;}
+.content section div.article.art3 .left .menu div.presale { text-align: center; font-size: 0.9em; padding: 5px 0 0 0; color: #ff0000; line-height: 14px;}
+.content section div.article.art3 .left .menu a { float: left; font: 14px/14px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #555C6C; background: url(../img/buy.png) no-repeat; padding: 8px 0 0 37px; text-decoration: none; height: 28px; display: block; } 
+.content section div.article.art3 .left .menu a.buy-button { color: #ffff90; }
+.content section div.article.art3 .left .menu a:hover { color: #555C6C; }
+.content section div.article.art3 .left .menu a.buy-button:hover { color: #ffffff; }
+.content section div.article.art3 .left .menu ul li { padding-bottom: 8px; width: 148px; }
+.content section div.article.art3 .left .menu ul li a { float: left; font: 12px/14px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; background: none; height: auto; padding: 0; color: #555c6c; text-decoration: none; }
+.content section div.article.art3 .left .menu ul li.avaliable a { color: #ffffff; }
+.content section div.article.art3 .left .menu ul li a:hover { color: #ffff90; }
+.content section div.article.art3 .right { position: relative; float: left; width: 450px; }
+.content section div.article.art3 .right form a { color: #FFFF90; position: relative; float: right; font: 14px/14px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding-top: 5px; }
+.content section div.article.art3 .right ul { padding-top: 20px; }
+.content section div.article.art3 .right .info { position: relative; float: left; width: 450px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid #0f1a30; }
+.content section div.article.art3 .right .info ul { position: relative; float: left; width: 100%; }
+.content section div.article.art3 .right .info ul.left { width: 190px; padding-right: 10px; padding-top: 0;}
+.content section div.article.art3 .right .info ul.right { width: 250px; padding: 0px; }
+.content section div.article.art3 .right .info ul li { font: 14px/22px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; width: 100%; }
+.content section div.article.art3 .right .info ul.left li, .content section div.article.art3 .right .info ul.right li { font: 12px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-transform: uppercase; }
+.content section div.article.art3 .right .info ul li.artist { color: #ffff90; }
+.content section div.article.art3 .right .info ul li span { font: 9px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-transform: uppercase; position: relative; float: left; color: #6e7481; }
+.content section div.article.art3 .right .info ul li span.one { width: 50px; }
+.content section div.article.art3 .right .info ul li span.two { width: 75px;  }
+.content section div.article.art3 .right .info ul li span.three { width: 120px; }
+.content section div.article.art3 .right .info p { font: 12px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; padding: 10px 0; }
+.content section div.article.art3 .right .info h4 { font: 9px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #6e7481; }
+.content section div.article.art3 .right .info a { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; text-decoration: none; position: relative; float: left; clear: both; height: auto; }
+.content section div.article.art3 .right .info ul li a { clear: none; color: #ffffff;}
+.content section div.article.art3 .right .info ul li a:hover { color: #FFFF90; text-decoration: none;}
+.content section div.article.art3 .right .info ul li.artist a { color: #FFFF90;}
+.content section div.article.art3 .right .info ul li.artist a:hover { color: #ffffff; }
+.content section div.article.art3 .right .info a:hover { text-decoration: underline; }
+.content section div.article.art3 .right .info:last-child { border: none; }
+
+.content section div.article.art3 .comments { width: 670px; position: relative; float: left; clear: both; padding: 20px; background-color: #4b5364; margin-top: 2px; }
+.content section div.article.art3 .comments p { font: 12px/16px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; padding: 10px 0; }
+.content section div.article.art3 .share { display: block; position: relative; float: left;  }
+
+.content section div.article.art3 .comments textarea { position: relative; width: 446px; padding: 4px; height: 102px; color: #878c97; border: 1px solid #878c97; font: 10px/12px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .comments ul li { border-bottom: 1px solid #273145; width: 446px; }
+.content section div.article.art3 .comments ul li:last-child { border: none; }
+.content section div.article.art3 .comments .username { font: 15px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90; padding-top: 9px; }
+.content section div.article.art3 .comments .usernotregistered { font: 15px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90; text-align: center; padding: 30px 0px; }
+.content section div.article.art3 .comments .date { font: 12px/14px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #cfd4de; }
+.content section div.article.art3 .comments p { font: 11px/12px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffffff; padding: 0 0 12px 0; }
+
+.content section div.article.art3 .log { position: relative; float: left; width: 255px; padding: 0px 60px 0 20px; }
+.content section div.article.art3 .log:last-child { padding: 0 20px 0 60px; }
+.content section div.article.art3 .log h2 { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; color: #ffff90; }
+.content section div.article.art3 .log input { position: relative; width: 235px; padding: 4px 5px; margin-top: 10px; background-color: #ffffff; color: #9ea2ab; border: 1px solid #9ea2ab; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; behavior: url(../PIE.htc); }
+.content section div.article.art3 .log input.password { background: url(../img/password.png) no-repeat 7px 7px #ffffff; }
+.content section div.article.art3 .log input.password2 { background: url(../img/password2.png) no-repeat 7px 7px #ffffff; }
+.content section div.article.art3 .log .error { text-align: center; padding: 10px 0 0 0; color: #ff0000; width: 235px; display: none;}
+.content section div.article.art3 .log .error a { color: #ff0000; text-decoration: underline;}
+.content section div.article.art3 .log .error a:hover { text-decoration: none; }
+.content section div.article.art3 .log .sucess { text-align: center; padding: 10px 0 0 0; color: #ffffff; width: 235px; display: none;}
+
+.content section div.article.art4 { position: relative; float: left; }
+.content section div.article.art4 div.text { position: relative; float: left; font-size: 14px; width: 640px; background: #273145; color: #ffffff; height: 245px; padding: 30px 35px 0 35px;}
+.content section div.article.art4 div.text form { padding: 35px 0 0 0;}
+.content section div.article.art4 div.text form input.text { width: 250px; padding: 0 5px; height: 28px; line-height: 28px; font-size: 14px; background: #a6aab2; border: none; color: #ffffff; margin-top: 5px; position: relative; float: left; clear: both;}
+.content section div.article.art4 div.text form a { font-size: 14px; color: #f5ee30; clear: both; position: relative; margin-left: 200px; margin-top: 10px; display: block;}
+.content section div.article.art4 .image { position: relative; float: left; width: 235px; margin-left: 1px;}
+
+.content_vinyl { position: relative; float: left; width: 710px;}
+
+.page { position: relative; float: right; display: block; width: 690px; padding: 0 10px; margin: 0 0 2px 0; background-color: #0d1424; height: 24px;}
+.page2 { width: 540px;}
+.page:last-child { margin-top: 2px; }
+.page h4 { position: relative; float: left; padding: 3px 20px 3px 0; color: #ffffff; font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; font-weight: normal; }
+.page ul { position: relative; float: left; font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.page ul li { position: relative; float: left; padding: 3px 5px; color: #ffffff;}
+.page ul li a { text-decoration: none; color: #ffffff; }
+.page ul li a:hover, .page ul li.active a { color: #ffff90; }
+.page .log { position: relative; float: left; width: 255px; padding: 0px 60px 0 20px; }
+.page .log:last-child { padding: 0 20px 0 60px; }
+.page .log a { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 3px 0; }
+.page .log a:hover { text-decoration: underline; }
+.page .checkout a.check { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 3px 0; }
+.page .checkout a.update { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 3px 0; margin-right: 20px;}
+.page .checkout a.pay_selected { font: 12px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; text-decoration: none; color: #ffffff; float: right; padding: 3px 0; text-transform: uppercase;}
+.page .checkout a:hover { text-decoration: underline; }
+.page .top { position: relative; float: left; width: 325px; padding: 0px 0 0 10px; }
+
+.orderby { position: relative; float: right; width: 140px; text-align: right; padding: 2px 10px 0 0; background-color: #0d1424; height: 24px; clear: both;}
+.search_word { padding: 10px 0; color: #ffffff; text-align: center; clear: both;}
+
+
+.page .player { position: relative; display: block; }
+.page .player h2 { position: relative; float: left; padding: 5px 10px 3px 0; color: #ffff90; font: 15px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; font-weight: normal; }
+.page .player h4 { color: #ffff90; font: 13px/18px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.page .player img { padding: 15px 0; } 
+
+.footer-text .widget-text { width: 946px; margin: 0 auto; position: relative; display: block; }
+.footer-text .widget-text p { display: block; float: left; text-transform: uppercase; font: 11px/11px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; padding-right: 20px; color: #565d6b; }
+.footer-text .widget-text a { padding-right: 0; color: #ffffff; text-decoration: none; font: 11px/11px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif;  }
+.footer-text .widget-text p.last { float: right; padding-right: 0; }
+.footer-text .widget-text p.who { float: right; padding-right: 30px; color: #565D6B; }
+.footer-text .widget-text p.who a { color: #565D6B; }
+
+html, body { height: 100%; background-color: #0f1a30; }
+section .content { background-color: #0d1324; }
+
+.header-text { background-color: #0d1324; }
+
+
+.header-navi { background-color: #555c6c; }
+.header-navi ul li a { color: #ffffff; background-color: #555c6c; border-color: #0f1a30;  }
+.header-navi ul li a:hover, .header-navi li.active a { background-color: #0d1424; }
+
+
+
+
+.jp-audio, .jp-video {
+    color: #666666;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+.content section div.article.art3 .widget-text .jp-audio { position: relative; background-color: #0F1A30; float: left; margin: 4px 0; padding: 20px 17px 10px; position: relative; width: 148px; }
+.content section div.article.art3 .widget-text .jp-audio ul { position: relative; float: left; }
+.content section div.article.art3 .widget-text .jp-audio ul li { width: 29px; height: 29px; position: relative; float: left; padding-right: 10px; }
+.content section div.article.art3 .widget-text .jp-audio ul li:nth-child(4) { padding-right: 0px; }
+.content section div.article.art3 .widget-text .jp-audio ul li a { float: left; padding-right: 0; }
+.content section div.article.art3 .widget-text .jp-audio ul li a span { left: 10000px; } 
+
+.jp-video-270p {
+    width: 480px;
+}
+.jp-video-360p {
+    width: 640px;
+}
+.jp-interface { float: left; position: relative; width: 100%;}
+
+.jp-audio .jp-type-single .jp-interface {
+    border-bottom: medium none;
+    height: 80px;
+}
+.jp-audio .jp-type-playlist .jp-interface {
+    height: 80px;
+}
+.jp-video .jp-type-single .jp-interface {
+    border-bottom: medium none;
+    height: 60px;
+}
+.jp-video .jp-type-playlist .jp-interface {
+    height: 60px;
+}
+.jp-interface ul.jp-controls {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.jp-interface ul.jp-controls li {
+    display: inline;
+}
+.jp-interface ul.jp-controls a {
+    overflow: hidden;
+    text-indent: -9999px;
+}
+a.jp-play, a.jp-pause {
+    height: 29px;
+    width: 29px;
+    background: url(../img/play.jpg) no-repeat;
+    z-index: 1;
+}
+.jp-type-playlist { position: relative; float: left; width: 148p; height: auto; }
+
+.jp-audio .jp-type-single a.jp-play, .jp-audio .jp-type-single a.jp-pause {
+    left: 40px;
+    top: 20px;
+}
+.jp-audio .jp-type-playlist a.jp-play, .jp-audio .jp-type-playlist a.jp-pause {
+    left: 48px;
+    top: 20px;
+}
+.jp-video a.jp-play, .jp-video a.jp-pause {
+    top: 15px;
+}
+.jp-video-270p .jp-type-single a.jp-play, .jp-video-270p .jp-type-single a.jp-pause {
+    left: 195px;
+}
+.jp-video-270p .jp-type-playlist a.jp-play, .jp-video-270p .jp-type-playlist a.jp-pause {
+    left: 220px;
+}
+.jp-video-360p .jp-type-single a.jp-play, .jp-video-360p .jp-type-single a.jp-pause {
+    left: 275px;
+}
+.jp-video-360p .jp-type-playlist a.jp-play, .jp-video-360p .jp-type-playlist a.jp-pause {
+    left: 300px;
+}
+
+a.jp-play { width: 29px; height: 29px; background: url(../img/play.jpg) no-repeat; }
+a.jp-play:hover { background: url(../img/play_.jpg) no-repeat; }
+
+a.jp-pause { width: 29px; height: 29px; background: url(../img/pause.jpg) no-repeat; }
+a.jp-pause:hover { background: url(../img/pause_.jpg) no-repeat; }
+.jp-audio .jp-type-single a.jp-stop {
+    left: 90px;
+    top: 26px;
+}
+.jp-audio .jp-type-playlist a.jp-stop {
+    left: 126px;
+    top: 26px;
+}
+.jp-video a.jp-stop {
+    top: 21px;
+}
+.jp-video-270p .jp-type-single a.jp-stop {
+    left: 245px;
+}
+.jp-video-270p .jp-type-playlist a.jp-stop {
+    left: 298px;
+}
+.jp-video-360p .jp-type-single a.jp-stop {
+    left: 325px;
+}
+.jp-video-360p .jp-type-playlist a.jp-stop {
+    left: 378px;
+}
+
+
+a.jp-stop { background: url(../img/stop.jpg) no-repeat; height: 29px; width: 29px; z-index: 1; }
+a.jp-stop:hover { background: url(../img/stop_.jpg) no-repeat;}
+
+
+.jp-audio .jp-type-playlist a.jp-previous {
+    left: 20px;
+    top: 26px;
+}
+.jp-video .jp-type-playlist a.jp-previous {
+    top: 21px;
+}
+.jp-video-270p .jp-type-playlist a.jp-previous {
+    left: 192px;
+}
+.jp-video-360p .jp-type-playlist a.jp-previous {
+    left: 272px;
+}
+a.jp-previous { background: url(../img/prev.jpg) no-repeat; height: 29px; width: 29px; }
+a.jp-previous:hover { background: url(../img/prev_.jpg) no-repeat; }
+
+.jp-audio .jp-type-playlist a.jp-next {
+    left: 88px;
+    top: 26px;
+}
+.jp-video .jp-type-playlist a.jp-next {
+    top: 21px;
+}
+.jp-video-270p .jp-type-playlist a.jp-next {
+    left: 260px;
+}
+.jp-video-360p .jp-type-playlist a.jp-next {
+    left: 340px;
+}
+a.jp-next { background: url(../img/next.jpg) no-repeat; height: 29px; width: 29px; }
+a.jp-next:hover { background: url(../img/next_.jpg) no-repeat; }
+
+.jp-progress { position: relative; float: left; width: 146px; height: 12px; background-color: #596170; margin-top: 20px; }
+
+.jp-audio .jp-type-single .jp-progress {
+    height: 15px;
+    left: 130px;
+    top: 32px;
+    width: 122px;
+}
+.jp-audio .jp-type-playlist .jp-progress {
+    height: 15px;
+    left: 164px;
+    top: 32px;
+    width: 122px;
+}
+.jp-video .jp-progress {
+    height: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.jp-seek-bar { position: absolute; height: 12px; background-color: #cfd4de; cursor: pointer; }
+.jp-play-bar {position: absolute; height: 12px; background-color: #ffff90; }
+.jp-seeking-bg {
+    background: url("pbar-ani.gif") repeat scroll 0 0 transparent;
+}
+a.jp-mute, a.jp-unmute {
+    height: 15px;
+    width: 18px;
+}
+.jp-audio .jp-type-single a.jp-mute, .jp-audio .jp-type-single a.jp-unmute {
+    left: 274px;
+    top: 32px;
+}
+.jp-audio .jp-type-playlist a.jp-mute, .jp-audio .jp-type-playlist a.jp-unmute {
+    left: 296px;
+    top: 32px;
+}
+.jp-video a.jp-mute, .jp-video a.jp-unmute {
+    top: 27px;
+}
+.jp-video-270p .jp-type-single a.jp-mute, .jp-video-270p .jp-type-single a.jp-unmute {
+    left: 304px;
+}
+.jp-video-270p .jp-type-playlist a.jp-unmute, .jp-video-270p .jp-type-playlist a.jp-mute {
+    left: 363px;
+}
+.jp-video-360p .jp-type-single a.jp-mute, .jp-video-360p .jp-type-single a.jp-unmute {
+    left: 384px;
+}
+.jp-video-360p .jp-type-playlist a.jp-mute, .jp-video-360p .jp-type-playlist a.jp-unmute {
+    left: 443px;
+}
+a.jp-mute { width: 26px; height: 29px; background: url(../img/volume_.png) no-repeat 0 10px; }
+a.jp-mute:hover { background: url(../img/volume.png) no-repeat 0 10px; }
+
+a.jp-unmute { width: 26px; height: 29px; background: url(../img/volume.png) no-repeat 0 10px; }
+a.jp-unmute:hover { background: url(../img/volume_.png) no-repeat 0 10px; left: -30px; }
+
+.jp-volume-bar { position: relative; float: left; background-color: #596170; width: 107px; height: 12px; cursor: pointer; overflow: hidden; margin-top: 15px; }
+
+.jp-audio .jp-type-single .jp-volume-bar {
+    left: 302px;
+    top: 37px;
+}
+.jp-audio .jp-type-playlist .jp-volume-bar {
+    left: 324px;
+    top: 37px;
+}
+.jp-video .jp-volume-bar {
+    top: 32px;
+}
+.jp-video-270p .jp-type-single .jp-volume-bar {
+    left: 332px;
+}
+.jp-video-270p .jp-type-playlist .jp-volume-bar {
+    left: 391px;
+}
+.jp-video-360p .jp-type-single .jp-volume-bar {
+    left: 412px;
+}
+.jp-video-360p .jp-type-playlist .jp-volume-bar {
+    left: 471px;
+}
+.jp-volume-bar-value { background-color: #cfd4de; position: absolute; top: 0; left: 0; height: 12px; width: 0; }
+
+.jp-current-time, .jp-duration { position: relative; float: left; font: 15px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; width: 73px; padding-top: 3px; }
+.jp-duration { text-align: right; }
+
+.jp-audio .jp-type-single .jp-current-time, .jp-audio .jp-type-single .jp-duration {
+    left: 130px;
+    top: 49px;
+    width: 122px;
+}
+.jp-audio .jp-type-playlist .jp-current-time, .jp-audio .jp-type-playlist .jp-duration {
+    left: 164px;
+    top: 49px;
+    width: 122px;
+}
+.jp-video .jp-current-time, .jp-video .jp-duration {
+    left: 0;
+    padding: 0 1%;
+    top: 10px;
+    width: 98%;
+}
+.jp-playlist { position: relative; float: left; width: 148px; }
+.jp-playlist ul { padding-top: 10px; } 
+
+.jp-type-single .jp-playlist li {
+    font-weight: bold;
+    padding: 5px 0 5px 20px;
+}
+.jp-type-playlist .jp-playlist li { width: 100%; height: auto; }
+.jp-type-playlist .jp-playlist li.jp-playlist-last {
+    border-bottom: medium none;
+    padding: 5px 0 5px 20px;
+}
+.jp-type-playlist .jp-playlist li.jp-playlist-current {
+    list-style-position: inside;
+    list-style-type: square;
+    padding-left: 8px;
+}
+.content section div.article.art3 .widget-text .jp-audio .jp-playlist li { width: 100%; height: auto; padding: 3px 0; }
+.content section div.article.art3 .widget-text.jp-type-playlist .jp-playlist a {color: #ffffff; text-decoration: none; font: 12px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.content section div.article.art3 .widget-text .jp-playlist a {color: #ffffff; text-decoration: none; font: 12px/20px 'AvenirLTStd-Roman', 'AvenirLTStd-Roman', sans-serif; }
+.jp-type-playlist .jp-playlist a:hover { color: #ffff90; }
+.content section div.article.art3 .widget-text .jp-playlist ul li a:hover, .content section div.article.art3 .widget-text .jp-playlist ul li.actual a { color: #ffff90; }
+.content section div.article.art3 .widget-text .jp-playlist ul li { color: #868888; }
+
+.jp-type-playlist .jp-playlist a.jp-playlist-current {
+    color: #0D88C1;
+}
+.jp-type-playlist .jp-playlist .jp-free-media {
+    display: inline;
+    margin-left: 20px;
+}
+.jp-video .jp-video-play {
+    background: url("jplayer.blue.monday.video.play.png") no-repeat scroll center center transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+.jp-video .jp-video-play:hover {
+    background: url("jplayer.blue.monday.video.play.hover.png") no-repeat scroll center center transparent;
+}
+.jp-video-270p .jp-video-play {
+    height: 270px;
+    top: -270px;
+    width: 480px;
+}
+.jp-video-360p .jp-video-play {
+    height: 360px;
+    top: -360px;
+    width: 640px;
+}
+.jp-jplayer {
+    height: 0;
+    width: 0;
+}
+.jp-video .jp-jplayer {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #009BE3 #009BE3 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    z-index: 1;
+}
+.jp-video-270p .jp-jplayer {
+    height: 270px;
+    width: 480px;
+}
+.jp-video-360p .jp-jplayer {
+    height: 360px;
+    width: 640px;
+}
+.jp-jplayer {
+    background-color: #000000;
+}
+.jPlayer { position: absolute; top: 0; left: -10000px; width: 1px; height: 1px; }
+
+.content section div.article.art1 ul li .active .right p.presale {
+color: #F00;
+}

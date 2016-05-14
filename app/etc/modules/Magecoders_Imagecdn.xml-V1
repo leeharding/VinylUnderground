@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Magecoders_Imagecdn>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Magecoders_Imagecdn>
+	</modules>
+</config> 
